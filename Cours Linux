@@ -1,0 +1,21 @@
+taper "man apt-get" dans un terminal donne une réponse en français et une explication plus complète et plus claire
+
+*************************************
+
+L'option update met à jour la liste des fichiers disponibles dans les dépôts APT présents dans le fichier de configuration /etc/apt/sources.list. L'exécuter régulièrement est une bonne pratique, afin de maintenir à jour votre liste de paquets disponibles.
+
+sudo apt-get update
+
+**************************************
+
+L'option upgrade met à jour tous les paquets installés sur le système vers les dernières versions (couramment utilisé).
+
+sudo apt-get upgrade
+
+**************************************
+
+Sortir du mode superUtilisateur (root)
+
+exit
+
+**************************************
